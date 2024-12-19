@@ -15,7 +15,7 @@ public class index {
             this.ArrNo=23;
             this.marks=97;
             this.name="sr";
-//this keyword will put the another
+    //this keyword will put the another
         }
 
         void greeting(){
