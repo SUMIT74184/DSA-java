@@ -69,7 +69,7 @@ public class Sudoku {
 //        after multiple attempts if the board is not solved then return false
     }
 
-    private static void display(int[][] board) {
+    static void display(int[][] board) {
        for(int[] row:board){
            for(int num:row){
                System.out.print(num+ " ");
