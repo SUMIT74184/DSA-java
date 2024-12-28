@@ -41,6 +41,13 @@ public class index {
 //        Student(){
 //        this(13,"default",12);
 //        }
+
+//  you cannot free the memory by yourself but you can info the program what to do
+//        @Override
+//        protected void finalize() throws Throwable {
+//            System.out.println("Object is destroyed");
+//
+//        }
     }
 
 
