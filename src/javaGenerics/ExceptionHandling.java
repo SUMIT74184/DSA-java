@@ -5,6 +5,7 @@ public class ExceptionHandling {
         int a=4;
         int b=0;
         try{
+            //this is the part which is handled in the course
             int result= (int) (a/b);
             System.out.println(result);
         }catch (Exception e){
