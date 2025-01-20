@@ -13,7 +13,7 @@ public class index {
 //        default constructor
         Student(){
             this.ArrNo=23;
-            this.marks=97;
+            this.marks=97; 
             this.name="sr";
     //this keyword will put the another
         }

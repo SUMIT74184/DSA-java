@@ -17,7 +17,7 @@ import java.util.Stack;
 
     //peek --provide element on the top of the stack
     //pop -- delete the element from stack
-    //isEmpty---check whether the stack is empty or not
+    //isEmpty---check whether the stack is empty or not  top<=-1
     //size---top+1
     //stack can hold the duplicate element because these are unique ones
         public void push(int element){
@@ -41,7 +41,6 @@ import java.util.Stack;
             return Integer.MIN_VALUE;
         }
         return stacksize[top];
-
         }
 
         public int pop(){
