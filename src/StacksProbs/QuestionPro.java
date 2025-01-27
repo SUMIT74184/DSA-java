@@ -2,7 +2,7 @@ package StacksProbs;
 import java.util.*;
 
 public class QuestionPro {
-    int countRev (String s) {
+  public static int countRev(String s) {
         if (s.length() % 2 != 0) {
             return -1;
         }
@@ -37,5 +37,8 @@ public class QuestionPro {
     }
         public static void main(String[] args) {
         System.out.println();
+        String s="}{{}}{{{";
+            int nas=countRev(s);
+            System.out.println(nas);
     }
 }
