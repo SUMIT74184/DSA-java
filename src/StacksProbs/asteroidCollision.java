@@ -26,7 +26,6 @@ public class asteroidCollision {
                         st.pop(); // Remove smaller asteroid and continue
                     }
                 }
-
                 if (asteroids[i] != 0) {
                     st.push(asteroids[i]);
                 }
@@ -34,7 +33,7 @@ public class asteroidCollision {
         }
 
         int len = st.size();
-        int ansArray[] = new int[len];
+        int []ansArray = new int[len];
         for (int i = len - 1; i >= 0; i--) {
             ansArray[i] = st.pop();
         }
@@ -43,8 +42,8 @@ public class asteroidCollision {
 
 
     public static void main(String[] args) {
-    int []astroids={-2,-2,1,-1};
-    int []as=asteroidCollisions(astroids);
+    int []asteroids={-2,-2,1,-1};
+    int []as=asteroidCollisions(asteroids);
     for(int ae:as){
         System.out.println(ae);
     }
