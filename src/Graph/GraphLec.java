@@ -36,7 +36,6 @@ public class GraphLec {
             adjList.add(new ArrayList<>());
             adjListWithWeight.add(new ArrayList<>());
         }
-
     }
 //    ->[[0,1],[1,0],[0,2],[2,0]
     public void addEdgesInMatrix(int [][]edges,boolean isDirected){

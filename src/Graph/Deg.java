@@ -15,17 +15,17 @@ public class Deg {
     }
 
     public void FindDegreeInDirectedGraph(int [][]edges,int nodes){
-        int []Indegree=new int[nodes];
+        int []InDegree=new int[nodes];
         int []OutDegree=new int[nodes];
         for(int []edge:edges){
             int From=edge[0];
             int To=edge[1];
-            Indegree[To]++;
+            InDegree[To]++;
             OutDegree[From]++;
         }
         for(int i=0;i<nodes;i++){
-            System.out.print("node -> " + i + " Indegree ->" +Indegree[i]+" - ");
-            System.out.print("node -> " + i + " Outdegree ->" +OutDegree[i]);
+            System.out.print("node -> " + i + " InDegree ->" +InDegree[i]+" - ");
+            System.out.print("node -> " + i + " OutDegree ->" +OutDegree[i]);
             System.out.println();
         }
     }
@@ -33,8 +33,8 @@ public class Deg {
 
     public static void main(String[] args) {
         int [][]edges={{0,2},{0,1},{1,3}};
-//        Deg graphy=new Deg();
-//        graphy.findDegreeInUndirectedGraph(edges,4);
+//        Deg Graphy=new Deg();
+//        Graphy.findDegreeInUndirectedGraph(edges,4);
 
         Deg graphd=new Deg();
         graphd.FindDegreeInDirectedGraph(edges,4);
