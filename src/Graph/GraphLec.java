@@ -5,7 +5,7 @@ import java.util.List;
 
 public class GraphLec {
 
-    class Pair{
+    public class Pair{
         int node;
         int weight;
         Pair(int n,int w){
